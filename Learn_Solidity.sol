@@ -8,6 +8,8 @@ contract Identity
    //int 8 to 256
    //uint 8 to 256
    //int is alias to int256 uint is alias to uint256 
+   //int value range = -2^(n-1) to 2^(n-1) -1 
+   //uint value range = 0 t0 2^(n) -1
 
     function getName() view public returns(string memory){
         return name;
