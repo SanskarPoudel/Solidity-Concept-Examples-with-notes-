@@ -82,7 +82,7 @@ contract Identity
     //Fixed Size Array: size defined in compiled time
     // dataType[size_of_array] visibility array_name = [elements_of _Array]
     uint[4] public arr = [10,20,30,40]; 
-    }
+    
 
 
 }
