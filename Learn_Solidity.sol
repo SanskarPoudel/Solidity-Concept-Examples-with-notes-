@@ -5,7 +5,9 @@ contract Identity
 {
     string name="Ravi";
     uint age=123;
-   
+   //int 8 to 256
+//uint 8 to 256
+//int is alias to int256 uint is alias to uint256 
 
     function getName() view public returns(string memory){
         return name;
