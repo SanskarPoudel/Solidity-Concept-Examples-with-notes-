@@ -59,9 +59,12 @@ contract Identity
      // POINT: We don't need getter function like "Function 1" to show variable, we can directly make variable public and it will show us button through which we can see/get the value inside it
      //Setter function need gas as we are modifying the variables but Getter function don't need gas as we are just showing already declared variable.
      
+     
      //Pure vs View : use while not modifying any variables
      //We use pure while we are not reading  the state variable : can use in the function with local variable only
      //We use view  when we have to only read the state variable/local variable : view can be used to read both state and local variable
+     
+     
     
     //Constructor : special function which is executed once and basically used to initialize the value to state variable
     //Constructor gets executed only once at the time of deploying contract. 
@@ -77,6 +80,8 @@ contract Identity
         count2=newCount;
     }
     
+    
+    
     //Arrays in solidity 
     //Fixed Size and Variable Size array
     //Fixed Size Array: size defined in compiled time
@@ -88,6 +93,8 @@ contract Identity
     arr[index] = value ;
     }
     
+    //we can use array_name.length to find the length of array
+
 
 
 }
