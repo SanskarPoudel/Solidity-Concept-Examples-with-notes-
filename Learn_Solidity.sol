@@ -83,6 +83,11 @@ contract Identity
     // dataType[size_of_array] visibility array_name = [elements_of _Array]
     uint[4] public arr = [10,20,30,40]; 
     
+    //inserting array elements through function
+    function setter(uint index, uint value) public {
+    arr[index] = value ;
+    }
+    
 
 
 }
